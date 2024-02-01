@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&family=Roboto&family=Rubik:ital,wght@1,700&display=swap');
+
+:root{
+/**COLORS**/
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+
+    /**FONTS**/
+    --font-family: "Outfit", sans-serif;
+
+    --sm-w:400;
+    --lg-w:700;
+
+    /**WIDTHS**/
+    --mobile:375px;
+    --desktop:1440px;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+    background-color: var(--light-gray);
+    font-family: var(--font-family);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    min-width: var(--mobile);
+    max-width: var(--mobile);
+    max-height: auto;
+    background-color:var(--white);
+    border-radius: 10px;
+
+    
+}
+
+.card-image{
+    padding: 20px;
+}
+
+.card-image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content{
+	padding: 40px;
+	text-align: center
+}
+
+.content-title{
+font-weight: var(--lg-w);
+color: var(--dark-blue);
+}
+
+.content-description{
+    font-weight: var(--sm-w);
+    color: var(--grayish-blue);
+}
