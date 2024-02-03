@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&family=Roboto&family=Rubik:ital,wght@1,700&display=swap");
+
+:root {
+  /**COLORS**/
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  /**FONTS**/
+  --font-family: "Outfit", sans-serif;
+
+  --sm-w: 400;
+  --lg-w: 700;
+
+  /**WIDTHS**/
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--light-gray);
+  font-family: var(--font-family);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.card {
+  margin: 0 2rem;
+  max-width: 375px;
+  background-color: var(--white);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card,
+.card-image img {
+  border-radius: 18px;
+}
+
+.card-image {
+  padding: 20px;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 0 40px 40px 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-title {
+  font-size: 22px;
+  font-weight: var(--lg-w);
+  color: var(--dark-blue);
+}
+
+.content-description {
+  font-weight: var(--sm-w);
+  color: var(--grayish-blue);
+}
