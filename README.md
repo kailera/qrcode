@@ -10,10 +10,9 @@ Hello, my name is Samuel (kailera is my game nickname) and this is my first expe
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -53,7 +52,7 @@ Body has a white background, so when screen is large than a desktop measurement,
 
 ### Links
 
-[Github Page](https://kailera.github.io/qrcode/)
+[Final QR Code Card ](https://kailera.github.io/qrcode/)
 
 ### Built with
 
