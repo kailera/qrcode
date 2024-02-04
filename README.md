@@ -54,6 +54,9 @@ Body has a white background, so when screen is large than a desktop measurement,
 
 [Final QR Code Card ](https://kailera.github.io/qrcode/)
 
+
+### My Process
+
 ### Built with
 
 - Semantic HTML5 markup
